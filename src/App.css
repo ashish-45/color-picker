@@ -1,38 +1,267 @@
-.App {
-  text-align: center;
+
+
+.orange-shade{
+    height: 200px;
+    width: 200px;
+    background-color:orange;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-header{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.active{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.y-color-title{
+    background-color:lightblue;
+    margin-top: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.b-color-title{
+    background-color:lightblue;
+    margin-top: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+.r-color-title{
+    background-color:lightblue;
+    margin-top: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.g-color-title{
+    background-color:lightblue;
+    margin-top: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.div-style:hover{
+    transition-duration: .3s;
+    -webkit-transform: translateY(0px) scale(1.1);
+    transform: translateY(0px) scale(1.2);
+    box-shadow: 0 5px 5px 5px rgba(172, 204, 206, 0.863);
+    z-index: 1;
+    color: #ffffff;
+}
+
+.div-style{
+    width: 15%;
+    height: 190px;
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4%;
+    display: flex;
+    font-size: 25px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#color1{
+    color: white;
+    background-color: #EEC213;
+}
+#color2{
+    color: white;
+    background-color:#DFAF2B;
+}
+#color3{
+    color: white;
+    background-color:#F4C724;
+}
+#color4{
+    color: white;
+    background-color: #FAC42F;
+}
+#color5{
+    color: white;
+    background-color:#E1DA00;
+}
+#color6{
+    color: white;
+    background-color: #FAD02E;
+}
+#color7{
+    color: white;
+    background-color:#F3B63E;
+}
+#color8{
+    color: white;
+    background-color:#F3B431;
+}
+#color9{
+    color: white;
+    background-color: #F3B63A;
+}
+#color10{
+    color: white;
+    background-color: #F5C469;
+}
+#color11{
+    color: white;
+    background-color:#4834DF;
+}
+#color12{
+    color: white;
+    background-color:#0A79DF;
+}
+#color13{
+    color: white;
+    background-color: #2475B0;
+}
+#color14{
+    color: white;
+    background-color:#3498DB;
+}
+#color15{
+    color: white;
+    background-color:#0ABDE3;
+}
+#color16{
+    color: white;
+    background-color: #192A56;
+}
+#color17{
+    color: white;
+    background-color: #3C40C6;
+}
+#color18{
+    color: white;
+    background-color: #6A89CC;
+}
+#color19{
+    color: white;
+    background-color: #4BCFFA;
+}
+#color20{
+    color: white;
+    background-color:#74B9FF;
+}
+#color21{
+    color: white;
+    background-color: #FF3031;
+}
+#color22{
+    color: white;
+    background-color: #E84342;
+}
+#color23{
+    color: white;
+    background-color: #E44236 ;
+}
+#color24{
+    color: white;
+    background-color:#D63031;
+}
+#color25{
+    color: white;
+    background-color:#EC4849;
+}
+#color26{
+    color: white;
+    background-color: #EA425C;
+}
+#color27{
+    color: white;
+    background-color:#E8290B;
+}
+#color28{
+    color: white;
+    background-color: #AE1438;
+}
+#color29{
+    color: white;
+    background-color:#FF4848;
+}
+#color30{
+    color: white;
+    background-color:#FF362E;
+}
+#color31{
+    color: white;
+    background-color:  #2ECC72;
+}
+#color32{
+    color: white;
+    background-color:#26AE60;
+}
+#color33{
+    color: white;
+    background-color:#6AB04A;
+}
+#color34{
+    color: white;
+    background-color:#43BE31;
+}
+#color35{
+    color: white;
+    background-color: #10A881;
+}
+#color36{
+    color: white;
+    background-color:#019031;
+}
+#color37{
+    color: white;
+    background-color: #75DA8B;
+}
+#color38{
+    color: white;
+    background-color:#218F76;
+}
+#color39{
+    color: white;
+    background-color:#218F76;
+}
+#color40{
+    color: white;
+    background-color:#7CEC9F;
+}
+
+
+
+
+
+
